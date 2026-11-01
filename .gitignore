@@ -218,3 +218,42 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local environment variables and secrets
+.env*
+!.env.example
+*.save
+
+# Python virtual environments
+.venv/
+venv/
+
+# Local databases and generated files
+*.db
+*.sqlite3
+__pycache__/
+.pytest_cache/
+
+# Local environment variables and secrets
+.env*
+!.env.example
+*.save
+
+# Python virtual environments
+.venv/
+venv/
+
+# Local databases and generated files
+*.db
+*.sqlite3
+__pycache__/
+.pytest_cache/
+
+# Local test images and backups
+test_leaf.png
+app_before_*.py
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
